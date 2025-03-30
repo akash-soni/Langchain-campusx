@@ -6,6 +6,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+model = ChatOpenAI()
+
+prompt = PromptTemplate(template='Write a summary for the following poem - \n{poem}', input_variables=['poem'])
+
+parser = StrOutputParser()
+
 loader = TextLoader('LANGCHAIN-DOCUMENT-LOADERS\cricket.txt', encoding='utf-8')
 
 docs = loader.load()
@@ -19,3 +25,9 @@ print(type(docs[0]))
 print(docs[0].page_content)
 
 print(docs[0].metadata)
+
+chain = prompt | model | parser
+
+
+print('SUMMARY\n')
+print(chain.invoke({'poem': docs[0].page_content}))
