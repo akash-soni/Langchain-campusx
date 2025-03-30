@@ -135,6 +135,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+<<<<<<< HEAD
+=======
+./venv
+>>>>>>> 52e8e5a (langchain codes)
 
 # Spyder project settings
 .spyderproject
