@@ -54,6 +54,8 @@ prompt3 = PromptTemplate(
 branch_chain = RunnableBranch(
     (lambda x:x.sentiment == 'positive', prompt2 | model | parser),
     (lambda x:x.sentiment == 'negative', prompt3 | model | parser),
+    
+    #Default case if the sentiment is not positive or negative
     RunnableLambda(lambda x : "could not find sentiment")
 )
 
