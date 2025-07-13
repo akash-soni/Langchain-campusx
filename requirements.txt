@@ -31,3 +31,8 @@ streamlit
 
 #libraies
 pypdf
+
+
+#Langgraph
+
+langgraph
