@@ -4,7 +4,7 @@ from typing import List,Dict, Optional, Annotated
 
 class Patient(BaseModel):
     NAME: Annotated[str,Field(min_length=3,max_length=50, title="Patient Name", description="The name of the patient should be between 3 and 50 characters", \
-        examples=["John Doe","Jane Smith"])]
+         examples=["JohnDoe","Jane Smith"])]
     age: int = Field(gt=5,lt=65)
     email: EmailStr
     linkedin_url: AnyUrl
