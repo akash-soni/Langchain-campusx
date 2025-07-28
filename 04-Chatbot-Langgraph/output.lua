@@ -1,0 +1,25 @@
+StateSnapshot(values=
+{'messages': [HumanMessage(content='Hi my name is Akash', additional_kwargs={}, response_metadata={}, id='1bd51688-6569-4205-88ec-46c89b0d0625'), 
+
+AIMessage(content='Hello Akash, nice to meet you! How can I assist you today?', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 16, 'prompt_tokens': 13, 'total_tokens': 29, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run--46174c5e-8e47-4bcd-b3c6-5c94a0cdfc4a-0', usage_metadata={'input_tokens': 13, 'output_tokens': 16, 'total_tokens': 29, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 
+
+
+HumanMessage(content='Hi my name is akash', additional_kwargs={}, response_metadata={}, id='f397b57f-3b99-4e13-b45a-e2a82222e224'), 
+
+AIMessage(content='Hello Akash! How are you doing today?', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 10, 'prompt_tokens': 43, 'total_tokens': 53, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run--4e8323cf-40b0-407f-b150-69e0971e2727-0', usage_metadata={'input_tokens': 43, 'output_tokens': 10, 'total_tokens': 53, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 
+
+
+HumanMessage(content='can you tell me my name', additional_kwargs={}, response_metadata={}, id='0ddd3832-c95b-407f-a04c-80e4620e9fe2'), 
+
+AIMessage(content='Yes, your name is Akash.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 8, 'prompt_tokens': 67, 'total_tokens': 75, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run--9c06206b-ac0f-44cf-96db-f100f1ad04d7-0', usage_metadata={'input_tokens': 67, 'output_tokens': 8, 'total_tokens': 75, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}),
+
+
+HumanMessage(content='ok, can you add 10 to  50', additional_kwargs={}, response_metadata={}, id='4f86a9df-a205-423a-b92d-4e777e80993f'), 
+
+AIMessage(content='Sure, 10 + 50 equals 60.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 11, 'prompt_tokens': 94, 'total_tokens': 105, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run--caf16978-d1b6-4930-9064-1e53fd96b566-0', usage_metadata={'input_tokens': 94, 'output_tokens': 11, 'total_tokens': 105, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), 
+
+
+
+HumanMessage(content='ok now add 90 in the previous', additional_kwargs={}, response_metadata={}, id='2de6e35a-bc73-4e50-ab00-a642153a89e6'), 
+
+AIMessage(content='Adding 90 to the previous result of 60 gives a total of 150.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 121, 'total_tokens': 138, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-3.5-turbo-0125', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run--a7820980-c514-4891-8fb2-3fc49f6aed5b-0', usage_metadata={'input_tokens': 121, 'output_tokens': 17, 'total_tokens': 138, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}, next=(), config={'configurable': {'thread_id': '1', 'checkpoint_ns': '', 'checkpoint_id': '1f06b762-4be2-661d-800d-cf59cf493445'}}, metadata={'source': 'loop', 'step': 13, 'parents': {}, 'thread_id': '1'}, created_at='2025-07-28T05:46:01.523970+00:00', parent_config={'configurable': {'thread_id': '1', 'checkpoint_ns': '', 'checkpoint_id': '1f06b762-3f2d-6ee5-800c-8579fd3050e0'}}, tasks=(), interrupts=())
