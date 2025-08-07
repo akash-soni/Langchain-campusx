@@ -28,7 +28,15 @@ graph.add_edge("chat_node", END)
 
 chatbot = graph.compile(checkpointer=checkpointer)
 
+# CONFIG = {'configurable': {'thread_id': 'thread-1'}}
+# chatbot.stream(
+#              {'messages': [HumanMessage(content="Hi my name is Akash")]} , 
+#                 config=CONFIG,
+#                 stream_mode= 'messages'
+# )
 
+
+# print(chatbot.get_state(config=CONFIG).values['messages'])
 # streaming functionality, to be used in the frontend
 # Uncomment the following lines to enable streaming
 # Note: This requires the frontend to handle streaming responses properly.
