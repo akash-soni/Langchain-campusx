@@ -36,3 +36,6 @@ pypdf
 #Langgraph
 
 langgraph
+
+
+langgraph-checkpoint-sqlite
