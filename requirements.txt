@@ -39,3 +39,12 @@ langgraph
 
 
 langgraph-checkpoint-sqlite
+
+
+# MCP Adapters
+langchain_mcp_adapters
+fastmcp
+mcp
+
+# FAISS for Vector Search
+faiss-cpu
