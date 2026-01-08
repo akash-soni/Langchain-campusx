@@ -48,3 +48,8 @@ mcp
 
 # FAISS for Vector Search
 faiss-cpu
+
+
+langgraph-checkpoint-postgres 
+psycopg[binary,pool] 
+langchain-openai
